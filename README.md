@@ -1,7 +1,6 @@
-Projeto React Native + Firebase
+#Projeto React Native + Firebase
 
 Nome do aplicativo: Online company
-
 Como vai funcionar?
 
 O “Online company” é um aplicativo criado para facilitar a troca de mensagens em uma rede interna. Possibilita iniciar conversas com qualquer usuário que esteja conectado em uma rede de conexão, de modo que todos que desejarem usar o app, necessariamente precisam estar conectados à mesma rede.
