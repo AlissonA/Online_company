@@ -1,4 +1,5 @@
-#Projeto React Native + Firebase
+Projeto React Native + Firebase
+
 Nome do aplicativo: Online company
 
 Como vai funcionar?
