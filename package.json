@@ -1,5 +1,5 @@
 {
-  "name": "firebase-basic-chat-video-tutorial",
+  "name": "online-company---02",
   "version": "0.0.0",
   "description": "No description",
   "author": null,
@@ -9,9 +9,9 @@
     "babel-preset-expo": "^7.0.0"
   },
   "dependencies": {
-    "expo": "^28.0.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "expo": "^34.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
     "firebase": "4.8.1",
     "react-navigation": "2.3.1",
     "react-native-gifted-chat": "0.3.0"

@@ -1,14 +1,14 @@
-import firebase from 'firebase'; 
+import firebase from 'firebase';
 
 class Fire {
   constructor() {
     this.init();
     this.observeAuth();
   }
-
+  
   init = () => {
     if (!firebase.apps.length) {
-      firebase.initializeApp({
+      firebase.initializeApp({ // dados do firebase
         apiKey: "AIzaSyBbG_8VRVuAQcEHW6avYz5cO27pJ1wI_sE",
         authDomain: "online-company.firebaseapp.com",
         databaseURL: "https://online-company.firebaseio.com",
@@ -63,7 +63,6 @@ class Fire {
   get timestamp() {
     return firebase.database.ServerValue.TIMESTAMP;
   }
-  // send the message to the Backend
   send = messages => {
     for (let i = 0; i < messages.length; i++) {
       const { text, user } = messages[i];
@@ -78,11 +77,9 @@ class Fire {
 
   append = message => this.ref.push(message);
 
-  // close the connection to the Backend
   off() {
     this.ref.off();
   }
 }
-
 Fire.shared = new Fire();
 export default Fire;
